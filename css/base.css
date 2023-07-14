@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+:root{
+    --white-color: #fff;
+    --gray-color: #e3dcdc;
+    --black-color: #121111;
+    --border-color: #776868;
+    --cross-color: #3b3838;
+    --column-color: rgb(24,26,27);
+    --primary-color: rgb(223,27,81);
+    --nav-color: rgb(34,37,38);
+    --header-color: rgba(0, 0, 0, 0.8);
+    --box-color: rgb(18,20,20);
+    --content-color: rgb(26,28,29);
+
+
+    /* -----Website1--------- */
+    --body-color: #0B0C10;
+    --silver-color: #C5C6C7;
+    /* --primary-color: #66ECF1; */
+    /* -----Website2--------- */
+    --blue-color: #026670;
+    --bgreen-color: #9FEDD7;
+    --brown-color: #FEF9C7;
+    --soil-color: #FCE181;
+    --body-color: #EDEAE5;
+    
+    /* -----Transition------ */
+    --transition-effect: 0.8s cubic-bezier(.68,-0.56,.56,1.61);
+}
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+#column{
+    width: 970px;
+    margin: 0px auto;
+}
+#container{
+    width: 100%;
+}
+/*  */
+.last-update{
+    opacity: 0.8;
+}
+.nav-list.last-update a:hover{
+    color: var(--white-color);
+    background-color: transparent;
+    cursor: not-allowed;
+
+}
+.hide{
+    display: none;
+}
+.default-btn{
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.nav-wrap_list.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+}
+@keyframes changeSize{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes changeBox {
+    from{
+        margin-top: -100px;
+    }
+    to{
+        margin: 0;
+
+    }
+}
+@keyframes changeFollow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+._color1{
+    color: rgb(223,27,81);
+}
+._color2{
+    color: rgb(229,30,45);
+}
+._color3{
+    color: rgb(227,110,35);
+}
+._color4{
+    color: rgb(241,149,30);
+}
+._color5{
+    color: rgb(250,185,19);
+}
+/* -------------------------Dark Mode------------------------------- */
+body{
+    background-color:var(--header-color);
+    transition: var(--transition-effect);
+}
+.body-dark{
+    background: var(--black-color);
+}
+.column-container{
+    background-color: var(--column-color);
+}
+.column-dark{
+    background-color: transparent;
+}
+.font-dark{
+    color: var(--black-color);
+}
+
+.invalid{
+    color: red;
+}

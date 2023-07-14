@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/comic.css">
+	<link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/family.css">
+
+	<title>Name-Comic</title>
+</head>
+<body>
+    <header>
+        <div id="column" class="header-column">
+            <a href="/html/index.html" class="header-logo">
+                tee<span>- comics</span>
+            </a>
+            <div class="header-search">
+                <div class="header-search_wrap">
+                    <input type="text" placeholder="Finding...">
+                    <ion-icon class="search_wrap-icon" name="search-outline"></ion-icon>
+                    <div class="header-search_comics">
+                        <div class="search_comics-header">Bạn muốn tìm truyện gì...</div>
+                        <div class="search_comics-wraper">
+                            
+                        <!-- ------------------------------------------------------ -->
+                          <!-- Comic-list JS -->
+                        <!-- ------------------------------------------------------ -->
+
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div id="wrapper">
+                <input type="checkbox" class ="switch-toggle" id="light-dark">
+            </div>
+            <div class="header-user">
+                <div class="header-user_account">
+                    <div class="user_account-log">
+                        <ion-icon class="account-log_icon" name="log-in-outline"></ion-icon>
+                        Log in
+                    </div>
+                    <div class="user_account-box">
+                        <form>
+                            
+                        </form>
+                    </div>
+                </div>
+                <p>or</p>
+                <div class="header-user_account">
+                    <div class="user_account-log">
+                        <ion-icon class="account-log_icon" name="person-add-outline"></ion-icon>
+                        Register
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div id="column">
+            <div class="nav">
+                <div class="nav-list  across"><a class="nav-list_link" href="">Home</a></div>
+                <div class="nav-list nav-list_link-genre">
+                    <a class="nav-list_link " href="">Genre
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </a>
+                    <div class="nav-list_wrapper1">
+                        <div class="nav-list_genre">
+                            <li><a href="" class="list_genre-link">Adventure</a></li>
+                            <li><a href="" class="list_genre-link">Anime</a></li>
+                            <li><a href="" class="list_genre-link">Chuyển Sinh</a></li>
+                            <li><a href="" class="list_genre-link">Cổ Đại</a></li>
+                            <li><a href="" class="list_genre-link">Comedy</a></li>
+                            <li><a href="" class="list_genre-link">Comic</a></li>
+                            <li><a href="" class="list_genre-link">Demons</a></li>
+                            <li><a href="" class="list_genre-link">Detective</a></li>
+                            <li><a href="" class="list_genre-link">Doujinshi</a></li>
+                            <li><a href="" class="list_genre-link">Drama</a></li>
+                            <li><a href="" class="list_genre-link">Fantasy</a></li>
+                            <li><a href="" class="list_genre-link">Gender </a></li>
+                            <li><a href="" class="list_genre-link">Bender</a></li>
+                            <li><a href="" class="list_genre-link">Harem</a></li>
+                            <li><a href="" class="list_genre-link">Historical</a></li>
+                            <li><a href="" class="list_genre-link">Horror</a></li>
+                            <li><a href="" class="list_genre-link">Huyền Huyễn</a></li>
+                            <li><a href="" class="list_genre-link">Isekai</a></li>
+                            <li><a href="" class="list_genre-link">Josei</a></li>
+                            <li><a href="" class="list_genre-link">Mafia</a></li>
+                            <li><a href="" class="list_genre-link">Magic</a></li>
+                            <li><a href="" class="list_genre-link">Manhua</a></li>
+                            <li><a href="" class="list_genre-link">Manhwa</a></li>
+                            <li><a href="" class="list_genre-link">Martial </a></li>
+                            <li><a href="" class="list_genre-link">Arts</a></li>
+                            <li><a href="" class="list_genre-link">Military</a></li>
+                            <li><a href="" class="list_genre-link">Mystery</a></li>
+                            <li><a href="" class="list_genre-link">Ngôn Tình</a></li>
+                            <li><a href="" class="list_genre-link">One shot</a></li>
+                            <li><a href="" class="list_genre-link">Psychological</a></li>
+                            <li><a href="" class="list_genre-link">Romance</a></li>
+                            <li><a href="" class="list_genre-link">School </a></li>
+                            <li><a href="" class="list_genre-link">Life Sci-fi</a></li>
+                            <li><a href="" class="list_genre-link">Seinen</a></li>
+                            <li><a href="" class="list_genre-link">Shoujo </a></li>
+                            <li><a href="" class="list_genre-link">AiShounen</a></li>
+                            <li><a href="" class="list_genre-link">Shounen </a></li>
+                            <li><a href="" class="list_genre-link">Slice of life</a></li>
+                            <li><a href="" class="list_genre-link">Sports</a></li>
+                            <li><a href="" class="list_genre-link">SuperNatural</a></li>
+                            <li><a href="" class="list_genre-link">Tragedy</a></li>
+                            <li><a href="" class="list_genre-link">Trọng Sinh</a></li>
+                            <li><a href="" class="list_genre-link">Truyện Màu</a></li>
+                            <li><a href="" class="list_genre-link">Webtoon</a></li>
+                            <li><a href="" class="list_genre-link">Xuyên Không</a></li>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-list nav-list_link-genre">
+                    <a class="nav-list_link " href="">Top
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </a>
+                    <div class="nav-list_wrapper2">
+                        <div class="nav-list_genre nav-list_genre2">
+                            <li><a href="" class="list_genre-link">Top ngày
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Top tuần
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Top tháng
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Yêu thích
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Truyện mới
+                                <ion-icon name="newspaper-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Truyện Full
+                                <ion-icon name="file-tray-full-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Random
+                                <ion-icon name="help-outline"></ion-icon>
+                            </a></li>
+                            
+    
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="nav-list"><a class="nav-list_link" href="">Hot
+                    <ion-icon name="flame-outline"></ion-icon>
+                </a></div>
+                <div class="nav-list"><a class="nav-list_link" href="">History</a></div>
+                <div class="nav-list"><a class="nav-list_link" href="">Image</a></div>
+                <div class="nav-list last-update"><a a class="nav-list_link" href="#" onclick="lastUpate()">Fanpage</a></div>
+            </div>
+        </div>
+    </nav>
+	<div id="container">
+		<div id="column" class="column-container">
+            
+			<div class="column-container_history">
+				<div class="container_history-link">
+					<a href="/html/index.html">Home</a>
+					<span>/</span>
+				</div>
+				<div class="container_history-link">
+					<div >Name-Comic</div>
+				</div>
+			</div>
+
+			<div class="column-container_wrap">
+				<div class="container_wrap-left">
+					<div class="wrap-left_infor">
+                        <img src="/img/background.jpg" class="left_infor-background" alt="">
+						<ul class="left_infor-img">
+							<div class="infor-img_wrap">
+								<img class="infor-img_comic" src="/img/background.jpg" alt="">
+							</div>
+							<div class="infor-img_consist">
+                                <a href="" class="infor-img_read">Đọc từ đầu</a>
+								<a href="" class="infor-img_read">Đọc mới nhất</a>
+							</div>
+                            <div class="infor-img_follow">Follow</div>
+						</ul>
+						<div class="left_infor-wrap">
+							<div class="infor-wrap_header">Name-Comic</div>
+							<ul class="infor-wrap_content">
+								<li>Tên khác: <span>Name-Comic</span></li>
+								<li>Tác giả: <span> Author</span></li>
+								<li>Nhân vật: <span>Character</span></li>
+								<li>Translator: <span><a class="wrap_content-trans" href="">Traslator</a></span></li>
+								<li>Nội dung: 
+                                    <span>
+                                        Nội dung
+                                    </span>
+                                </li>
+							</ul>
+							<div class="infor-wrap_rate">
+								<div class="wrap_rate-star">
+									<ion-icon name="star-outline"></ion-icon>
+									<ion-icon name="star-outline"></ion-icon>
+									<ion-icon name="star-outline"></ion-icon>
+									<ion-icon name="star-outline"></ion-icon>
+									<ion-icon name="star-outline"></ion-icon>
+								</div>
+								<div class="wrap-rate_number">
+									0 <span>/ 5</span>
+                                    <p>( Đánh giá <span>4.8</span>/ 5 từ <span>2023</span> thành viên )</p> 
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="wrap-left_chapter">
+                        <div class="left_chapter-content">
+                            <div class="chapter-content_header">
+                                Chapter
+                            </div>
+                            <ul class="chapter-content_link">
+
+                                <li>
+                                    <a href="/html/chapter.html" class="content_link-chap">Chapter</a>
+                                    <span class="content_link-time">
+                                        2 ngày trước
+                                    </span>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+				</div>
+				<div class="container_wrap-right">
+					<div class="wrap-right_choose">
+						<div class="right_choose-header">Truyện đề cử</div>
+						<div class="right_choose-wrap">
+							<div class="right_choose-comic">
+								<a href=""><img src="/img/One-Piece/One-Piece.jpg" alt="" class="choose-comic_img"></a>
+								<div class="choose-comic_name">
+									<a class="comic_name-link" href="">Name-Another</a>
+									<a class="comic_name-link" href="">Chapter-Number</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            
+		</div>
+	</div>
+	<div id="footer">
+        <div id="column" class="column-footer">
+            <div class="column-footer_left">
+                <img src="" alt="" class="footer_left_logo">
+                <p>Tương tác với chúng tôi! </p>
+                <div class="footer_left-social">
+                    <a href="" class="left-social_link"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-snapchat"></ion-icon></a>
+                </div>
+                <p>Copyright © 2023 - ReadComics</p>
+            </div>
+            <div class="column-footer_right">
+                <div class="column-right_web">
+                    <h3 class="right_web-header">Websites</h3>
+                    <ul class="web-header_link">
+                        <li><a href="" class="header_link-web">nettruyen</a></li>
+                        <li><a href="" class="header_link-web">vcomic</a></li>
+                        <li><a href="" class="header_link-web">truyenfull</a></li>
+                        <li><a href="" class="header_link-web">metruyen</a></li>
+                        <li><a href="" class="header_link-web">readcomics</a></li>
+                        <li><a href="" class="header_link-web">nettruyen</a></li>
+                        <li><a href="" class="header_link-web">vcomic</a></li>
+                        <li><a href="" class="header_link-web">truyenfull</a></li>
+                        <li><a href="" class="header_link-web">metruyen</a></li>
+                        <li><a href="" class="header_link-web">readcomics</a></li>
+                        <li><a href="" class="header_link-web">nettruyen</a></li>
+                        <li><a href="" class="header_link-web">vcomic</a></li>
+                        <li><a href="" class="header_link-web">truyenfull</a></li>
+                        <li><a href="" class="header_link-web">metruyen</a></li>
+                        <li><a href="" class="header_link-web">readcomics</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="/js/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+    var checkBox_toggle = document.getElementById("light-dark")
+    const column = document.querySelector(".column-container")
+
+    checkBox_toggle.addEventListener('change', function(){
+        // thêm class dark tới body
+        column.classList.toggle('column-dark');
+        fontColor.classList.toggle('font-dark');
+        document.body.classList.toggle('body-dark');
+    });    
+</script>
+
+</html>

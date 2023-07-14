@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/family.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <title>ReadComics</title>
+</head>
+<body>
+    <header>
+        <div id="column" class="header-column">
+            <a href="#" class="header-logo">
+                tee<span>- comics</span>
+            </a>
+            <div class="header-search">
+                <div class="header-search_wrap">
+                    <input type="text" placeholder="Finding...">
+                    <ion-icon class="search_wrap-icon" name="search-outline"></ion-icon>
+                    <div class="header-search_comics">
+                        <div class="search_comics-header">Bạn muốn tìm truyện gì...</div>
+                        <div class="search_comics-wraper">
+                            
+                        <!-- ------------------------------------------------------ -->
+                          <!-- Comic-list JS -->
+                        <!-- ------------------------------------------------------ -->
+
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div id="wrapper">
+                <input type="checkbox" class ="switch-toggle" id="light-dark">
+            </div>
+            <div class="header-user">
+                <div class="header-user_account">
+                    <a href="/html/form.html" class="user_account-log">
+                        <ion-icon class="account-log_icon" name="log-in-outline"></ion-icon>
+                        Log in
+                    </a>
+                    
+                </div>
+                <p>or</p>
+
+                <div class="header-user_account">
+                    <a href="" class="user_account-log">
+                        <ion-icon class="account-log_icon" name="person-add-outline"></ion-icon>
+                        Register
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div id="column">
+            <div class="nav">
+                <div class="nav-list  across"><a class="nav-list_link" href="">Home</a></div>
+                <div class="nav-list nav-list_link-genre">
+                    <a class="nav-list_link " href="/html/genre.html">Genre
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </a>
+                    <div class="nav-list_wrapper1">
+                        <div class="nav-list_genre">
+                            <li><a href="" class="list_genre-link">Adventure</a></li>
+                            <li><a href="" class="list_genre-link">Anime</a></li>
+                            <li><a href="" class="list_genre-link">Chuyển Sinh</a></li>
+                            <li><a href="" class="list_genre-link">Cổ Đại</a></li>
+                            <li><a href="" class="list_genre-link">Comedy</a></li>
+                            <li><a href="" class="list_genre-link">Comic</a></li>
+                            <li><a href="" class="list_genre-link">Demons</a></li>
+                            <li><a href="" class="list_genre-link">Detective</a></li>
+                            <li><a href="" class="list_genre-link">Doujinshi</a></li>
+                            <li><a href="" class="list_genre-link">Drama</a></li>
+                            <li><a href="" class="list_genre-link">Fantasy</a></li>
+                            <li><a href="" class="list_genre-link">Gender </a></li>
+                            <li><a href="" class="list_genre-link">Bender</a></li>
+                            <li><a href="" class="list_genre-link">Harem</a></li>
+                            <li><a href="" class="list_genre-link">Historical</a></li>
+                            <li><a href="" class="list_genre-link">Horror</a></li>
+                            <li><a href="" class="list_genre-link">Huyền Huyễn</a></li>
+                            <li><a href="" class="list_genre-link">Isekai</a></li>
+                            <li><a href="" class="list_genre-link">Josei</a></li>
+                            <li><a href="" class="list_genre-link">Mafia</a></li>
+                            <li><a href="" class="list_genre-link">Magic</a></li>
+                            <li><a href="" class="list_genre-link">Manhua</a></li>
+                            <li><a href="" class="list_genre-link">Manhwa</a></li>
+                            <li><a href="" class="list_genre-link">Martial </a></li>
+                            <li><a href="" class="list_genre-link">Arts</a></li>
+                            <li><a href="" class="list_genre-link">Military</a></li>
+                            <li><a href="" class="list_genre-link">Mystery</a></li>
+                            <li><a href="" class="list_genre-link">Ngôn Tình</a></li>
+                            <li><a href="" class="list_genre-link">One shot</a></li>
+                            <li><a href="" class="list_genre-link">Psychological</a></li>
+                            <li><a href="" class="list_genre-link">Romance</a></li>
+                            <li><a href="" class="list_genre-link">School </a></li>
+                            <li><a href="" class="list_genre-link">Life Sci-fi</a></li>
+                            <li><a href="" class="list_genre-link">Seinen</a></li>
+                            <li><a href="" class="list_genre-link">Shoujo </a></li>
+                            <li><a href="" class="list_genre-link">AiShounen</a></li>
+                            <li><a href="" class="list_genre-link">Shounen </a></li>
+                            <li><a href="" class="list_genre-link">Slice of life</a></li>
+                            <li><a href="" class="list_genre-link">Sports</a></li>
+                            <li><a href="" class="list_genre-link">SuperNatural</a></li>
+                            <li><a href="" class="list_genre-link">Tragedy</a></li>
+                            <li><a href="" class="list_genre-link">Trọng Sinh</a></li>
+                            <li><a href="" class="list_genre-link">Truyện Màu</a></li>
+                            <li><a href="" class="list_genre-link">Webtoon</a></li>
+                            <li><a href="" class="list_genre-link">Xuyên Không</a></li>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-list nav-list_link-genre">
+                    <a class="nav-list_link " href="">Top
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </a>
+                    <div class="nav-list_wrapper2">
+                        <div class="nav-list_genre nav-list_genre2">
+                            <li><a href="" class="list_genre-link">Top ngày
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Top tuần
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Top tháng
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Yêu thích
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Truyện mới
+                                <ion-icon name="newspaper-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Truyện Full
+                                <ion-icon name="file-tray-full-outline"></ion-icon>
+                            </a></li>
+                            <li><a href="" class="list_genre-link">Random
+                                <ion-icon name="help-outline"></ion-icon>
+                            </a></li>
+                            
+    
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="nav-list"><a class="nav-list_link" href="">Hot
+                    <ion-icon name="flame-outline"></ion-icon>
+                </a></div>
+                <div class="nav-list"><a class="nav-list_link" href="">History</a></div>
+                <div class="nav-list"><a class="nav-list_link" href="">Image</a></div>
+                <div class="nav-list last-update"><a a class="nav-list_link" href="#" onclick="lastUpate()">Fanpage</a></div>
+            </div>
+        </div>
+    </nav>
+    <div id="container">
+        <div id="column" class="column-container">
+            <div class="column-quotes">
+                <div class="column-quotes_text">
+                    <div id="quote"></div>
+                    <div id="author" ></div>
+                    <button class="column-quotes_btn" onclick="makeQuote()">Change</button>
+                </div>
+            </div>
+            <div class="column-slide">
+                <div class="column-slide_header">
+                    <ion-icon name="trending-up-outline"></ion-icon>
+                    Truyện mới cập nhật!
+                </div>
+                <div class="column-slide_wrapper">
+                    <div class="slide_wrapper-comics">
+                        <ion-icon class="wrap-icon_nav left" onclick="prevSlide()" name="chevron-back-outline"></ion-icon>
+                        <div class="wrapper-comics_slide">  
+                            <a href="" class="wrapper-comics_link">
+                                <img src="/img/Onepiece/Onepiece.jpg" alt="" class="comics_link-img">
+                                <div class="comics_link-name">Onepiece</div>
+                                <div class="comics_link-chapter">
+                                    Chapter 02
+                                </div>
+                            </a>
+                            <a href="" class="wrapper-comics_link">
+                                <img src="/img/Dau-pha-thuong-khung/DPTK.jpg" alt="" class="comics_link-img">
+                                <div class="comics_link-name">Đấu phá thương khung</div>
+                                <div class="comics_link-chapter">
+                                    Chapter 02
+                                </div>
+                            </a>
+                            <a href="" class="wrapper-comics_link">
+                                <img src="/img/Ta-co-mot-son-trai/Ta-co-mot-son-trai.jpg" alt="" class="comics_link-img">
+                                <div class="comics_link-name">Ta có một sơn trại</div>
+                                <div class="comics_link-chapter">
+                                    Chapter 200
+                                </div>
+                            </a>
+                            <a href="" class="wrapper-comics_link">
+                                <img src="/img/Dau-pha-thuong-khung/DPTK.jpg" alt="" class="comics_link-img">
+                                <div class="comics_link-name">Đấu phá thương khung</div>
+                                <div class="comics_link-chapter">
+                                    Chapter 02
+                                </div>
+                            </a>
+                            <a href="" class="wrapper-comics_link">
+                                <img src="/img/Dau-pha-thuong-khung/DPTK.jpg" alt="" class="comics_link-img">
+                                <div class="comics_link-name">Đấu phá thương khung</div>
+                                <div class="comics_link-chapter">
+                                    Chapter 02
+                                </div>
+                            </a>
+                            <a href="" class="wrapper-comics_link">
+                                <img src="/img/Dau-pha-thuong-khung/DPTK.jpg" alt="" class="comics_link-img">
+                                <div class="comics_link-name">Đấu phá thương khung</div>
+                                <div class="comics_link-chapter">
+                                    Chapter 26
+                                </div>
+                            </a>
+                        </div>
+                        <ion-icon class="wrap-icon_nav right" onclick="nextSlide()" name="chevron-forward-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="column-contain">
+                <div class="column-left">
+                    <div class="column-left_update">
+                        <div class="left_update-wrap">
+                            <div class="update-wrap_header">
+                                <ion-icon name="leaf-outline"></ion-icon>
+                                update
+                            </div>
+                            <div class="update-wrap_comics">
+                                <div class="wrap_comics-info">
+                                    <a href="/html/Comic/Onepiece.html" class="comics-info_link">
+                                        <img src="/img/Onepiece/Onepiece.jpg" alt="One Piece">
+                                        <div class="comics-info_name">Onepiece</div>
+                                    </a>
+                                    <div class="comics-info_chapter">
+                                        <a href="" class="infor_chapter-link">
+                                            Chapter
+                                            <span>11</span>
+                                        </a>
+                                        <div class="infor_chapter-time">
+                                            11 day later
+                                        </div>
+                                        <div class="infor_chapter-hot ">
+                                           Hot
+                                        </div>
+                                        <div class="infor_chapter-view">
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="heart-outline"></ion-icon>
+                                                like
+                                            </div>
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                                view
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap_comics-info">
+                                    <a href="" class="comics-info_link">
+                                        <img src="/img/Onepiece/Onepiece.jpg" alt="One Piece">
+                                        <div class="comics-info_name">Onepiece</div>
+                                    </a>
+                                    <div class="comics-info_chapter">
+                                        <a href="" class="infor_chapter-link">
+                                            Chapter
+                                            <span>11</span>
+                                        </a>
+                                        <div class="infor_chapter-time">
+                                            11 day later
+                                        </div>
+                                        <div class="infor_chapter-hot ">
+                                            Hot
+                                         </div>
+                                        <div class="infor_chapter-view">
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="heart-outline"></ion-icon>
+                                                like
+                                            </div>
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                                view
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap_comics-info">
+                                    <a href="" class="comics-info_link">
+                                        <img src="/img/Onepiece/Onepiece.jpg" alt="One Piece">
+                                        <div class="comics-info_name">Onepiece</div>
+                                    </a>
+                                    <div class="comics-info_chapter">
+                                        <a href="" class="infor_chapter-link">
+                                            Chapter
+                                            <span>11</span>
+                                        </a>
+                                        <div class="infor_chapter-time">
+                                            11 day later
+                                        </div>
+                                        <div class="infor_chapter-view">
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="heart-outline"></ion-icon>
+                                                like
+                                            </div>
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                                view
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap_comics-info">
+                                    <a href="" class="comics-info_link">
+                                        <img src="/img/Onepiece/Onepiece.jpg" alt="One Piece">
+                                        <div class="comics-info_name">Onepiece</div>
+                                    </a>
+                                    <div class="comics-info_chapter">
+                                        <a href="" class="infor_chapter-link">
+                                            Chapter
+                                            <span>11</span>
+                                        </a>
+                                        <div class="infor_chapter-time">
+                                            11 day later
+                                        </div>
+                                        <div class="infor_chapter-view">
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="heart-outline"></ion-icon>
+                                                like
+                                            </div>
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                                view
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap_comics-info">
+                                    <a href="" class="comics-info_link">
+                                        <img src="/img/Onepiece/Onepiece.jpg" alt="One Piece">
+                                        <div class="comics-info_name">Onepiece</div>
+                                    </a>
+                                    <div class="comics-info_chapter">
+                                        <a href="" class="infor_chapter-link">
+                                            Chapter
+                                            <span>11</span>
+                                        </a>
+                                        <div class="infor_chapter-time">
+                                            11 day later
+                                        </div>
+                                        <div class="infor_chapter-view">
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="heart-outline"></ion-icon>
+                                                like
+                                            </div>
+                                            <div class="chapter-view_like">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                                view
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <ul class="update-wrap_page">
+                                <li><a href="#" class="wrap_page-link default-btn"><ion-icon name="chevron-back-outline"></ion-icon></a></li>
+                                <li><a href="" class="wrap_page-link">1</a></li>
+                                <li><a href="" class="wrap_page-link">2</a></li>
+                                <li><a href="" class="wrap_page-link">3</a></li>
+                                <li><a href="" class="wrap_page-link">4</a></li>
+                                <li><a href="" class="wrap_page-link">5</a></li>
+                                <li><a href="" class="wrap_page-link">6</a></li>
+                                <li><a href="" class="wrap_page-link">7</a></li>
+                                <li><a href="" class="wrap_page-link">...</a></li>
+                                <li><a href="" class="wrap_page-link">10</a></li>
+                                <li><a href="" class="wrap_page-link"><ion-icon name="chevron-forward-outline"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-right">
+                    <div class="column-right_top">
+                        <ul class="right_top-header">
+                            <li class="top-header_time">
+                                <div class="header_time-header">
+                                    <div class="header_time active-click">Top Day</div> 
+                                    <div class="header_time ">Top Week</div>
+                                    <div class="header_time">Top Month</div>
+                                    <div class="header_line"></div>
+                                </div>
+                                <div class="header_time-content">
+                                    <div class="header_time-wrap active-click">
+                                        <div class="time-wrap_comic">
+                                            <div class="wrap_comic-number _color1">1</div>
+                                            <div class="wrap_comic-info">
+                                                <a href=""><img src="/img/Ta-co-mot-son-trai/Ta-co-mot-son-trai.jpg" alt="" class="comic-info_img"></a>
+                                            </div>
+                                            <ul class="comic-info_name">
+                                                <li><a href="" class="info_name-link">Name-Comics </a></li>
+                                                <li><a href="" class="info_name-link info_name-link2 ">Name-Chapter</a></li>
+                                                <li class="info_name-view">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                    <span>22</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="header_time-wrap">
+                                        <div class="time-wrap_comic">
+                                            <div class="wrap_comic-number _color1">1</div>
+                                            <div class="wrap_comic-info">
+                                                <a href=""><img src="/img/Onepiece/Onepiece-1.jpg" alt="" class="comic-info_img"></a>
+                                            </div>
+                                            <ul class="comic-info_name">
+                                                <li><a href="" class="info_name-link">Name-Comics </a></li>
+                                                <li><a href="" class="info_name-link info_name-link2 ">Name-Chapter</a></li>
+                                                <li class="info_name-view">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                    <span>22</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="header_time-wrap">
+                                        <div class="time-wrap_comic">
+                                            <div class="wrap_comic-number _color1">1</div>
+                                            <div class="wrap_comic-info">
+                                                <a href=""><img src="/img/Onepiece/Onepiece-1.jpg" alt="" class="comic-info_img"></a>
+                                            </div>
+                                            <ul class="comic-info_name">
+                                                <li><a href="" class="info_name-link">Name-Comics </a></li>
+                                                <li><a href="" class="info_name-link info_name-link2 ">Name-Chapter</a></li>
+                                                <li class="info_name-view">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                    <span>22</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="back_to-top">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div id="footer">
+        <div id="column" class="column-footer">
+            <div class="column-footer_left">
+                <img src="" alt="" class="footer_left_logo">
+                <p>Tương tác với chúng tôi! </p>
+                <div class="footer_left-social">
+                    <a href="" class="left-social_link"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    <a href="" class="left-social_link"><ion-icon name="logo-snapchat"></ion-icon></a>
+                </div>
+                <p>Copyright © 2023 - ReadComics</p>
+            </div>
+            <div class="column-footer_right">
+                <div class="column-right_web">
+                    <h3 class="right_web-header">Websites</h3>
+                    <ul class="web-header_link">
+                        <li><a href="" class="header_link-web">nettruyen</a></li>
+                        <li><a href="" class="header_link-web">vcomic</a></li>
+                        <li><a href="" class="header_link-web">truyenfull</a></li>
+                        <li><a href="" class="header_link-web">metruyen</a></li>
+                        <li><a href="" class="header_link-web">readcomics</a></li>
+                        <li><a href="" class="header_link-web">nettruyen</a></li>
+                        <li><a href="" class="header_link-web">vcomic</a></li>
+                        <li><a href="" class="header_link-web">truyenfull</a></li>
+                        <li><a href="" class="header_link-web">metruyen</a></li>
+                        <li><a href="" class="header_link-web">readcomics</a></li>
+                        <li><a href="" class="header_link-web">nettruyen</a></li>
+                        <li><a href="" class="header_link-web">vcomic</a></li>
+                        <li><a href="" class="header_link-web">truyenfull</a></li>
+                        <li><a href="" class="header_link-web">metruyen</a></li>
+                        <li><a href="" class="header_link-web">readcomics</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+   // -------------------------------Back_to-top--------------------------------
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop()) {
+            $('#back_to-top').fadeIn();
+        } else {
+            $('#back_to-top').fadeOut();
+        }
+    });
+    $("#back_to-top").click(function(){
+        $('html, body').animate({scrollTop: 0},500);
+    });
+});
+</script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="/js/app.js"></script>
+<script src="/js/text.js"></script>
+</html>

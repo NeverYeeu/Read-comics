@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/form.css">
+	<link rel="stylesheet" href="/font/fontawesome-free-6.2.1-web/css/all.min.css">
+	
+	<title>Register</title>
+</head>
+<body>	
+	<div class="register">
+		<form action= "" method= "POST" class ="form" id="form-1">
+			<header>
+				Đăng Ký
+			</header>
+			<div class="heder-note">Mẹo: đăng ký nhanh hơn với Google hoặc Facebook!</div>
+			<div class="form-group">
+				<div class="form-input">
+					<i class="fa-regular fa-user"></i>
+					<input id="fullname" rules="required" name="fullname" type="text" placeholder="username">
+				</div>
+				<span class="form-message"></span>
+	
+			</div>
+			<div class="form-group">
+				<div class="form-input">
+					<i class="fa-regular fa-envelope"></i>
+					<input id="email" rules="required|email" name="email" type="email" placeholder="email">
+				</div>
+				<span class="form-message"></span>
+	
+			</div>
+			<div class="form-group">
+				<div class="form-input">
+					<i class="fa-solid fa-key"></i>
+					<input id="password" rules="required|min:6"  name="password" type="password" placeholder="Password">
+				</div>
+				<span class="form-message"></span>
+			</div>
+			<div class="form-group">
+				<div class="form-input">
+					<i class="fa-solid fa-key"></i>
+					<input id="password_confirmmation" name="password_confirmmation" type="password" placeholder="Confirm Password">
+				</div>
+				<span class="form-message"></span>
+			</div>
+			
+			<div class="form-check">
+				<input type="checkbox">
+				<p>Nhận thông báo về các tin tức & sự kiện mới nhất của chúng tôi.</p>
+			</div>
+			<div class="form-btn">
+				<button class="form-submit">Đăng ký</button>
+			</div>
+			<div class="form-footer">Bằng cách đăng ký, bạn đã đồng ý với các <a href="" class="form-footer_link">điều khoản sử dụng</a>
+				của chúng tôi!
+			</div>
+			<div class="form-question">
+				Bạn đã có tài khoản?
+				<a href="" class="form-question_link">Đăng nhập</a>
+			</div>
+		</form>
+	</div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="/js/validator2.js"></script>
+<script>
+	Validator('.register');
+</script>
+</html>

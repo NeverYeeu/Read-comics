@@ -1,0 +1,119 @@
+body{
+	background: url(/img/background.jpg);
+	background-size: cover;
+}
+form{
+	width: 400px;
+	height: auto;
+	margin: 50px auto;
+	padding: 12px;
+	font-size: 16px;
+	color: var(--white-color);
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 8px;
+	box-shadow: 0px 1px 16px 1px var(--white-color);
+}
+header{
+	margin-top: 12px;
+	text-align: center;
+	font-size: 26px;
+	color: var(--primary-color);
+	text-transform: uppercase;
+}
+.heder-note{
+	text-align: center;
+	margin: 12px 0px 12px;
+	font-size: 16px;
+}
+.form-group:hover{
+	color: var(--primary-color);
+}
+.form-group .form-message{
+	font-size: 13px;
+}
+.form-input{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	font-size: 16px;
+	border-bottom: 1px solid var(--white-color);
+	margin-top: 12px;
+}
+.form-input:hover{
+	border-bottom: 1px solid var(--primary-color);
+}
+.form-input input{
+	width: 100%;
+	height: 36px;
+	font-size: 16px;
+	padding: 0px 8px 0 26px;
+	border: 0;
+	outline: 0;
+	color: var(--white-color);
+	background-color: transparent;
+}
+
+.form-input i{
+	position: absolute;
+	top: 28%;
+	font-size: 18px;
+}
+.form-input input::placeholder{
+	color: #d5d5d5;
+	text-transform: capitalize;
+}
+.form-input:hover input::placeholder{
+	color: var(--primary-color);
+}
+
+.form-input_header{
+	width: 100%;
+	padding: 8px;
+}
+.form-check{
+	display: flex;
+	/* align-items: center; */
+	margin: 12px 0px;
+	font-size: 13px;
+}
+.form-check p{
+	margin-left: 4px;
+}
+
+.form-btn button{
+	margin: 12px 0px;
+	width: 100%;
+	padding: 8px 0;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	border: none;
+	border-radius: 2px;
+}
+.form-footer{
+	text-align: center;
+	margin: 12px 0;
+	font-size: 13px;
+
+}	
+.form-footer_link{
+	color: var(--primary-color);
+}
+.form-question{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 13px;
+}
+.form-question_link{
+	display: block;
+	text-decoration: none;
+	color: var(--primary-color);
+	font-size: 15px;
+	margin-left: 4px;
+}
+.form-question_link:hover{
+	text-decoration: underline;
+}
